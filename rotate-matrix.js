@@ -7,7 +7,7 @@
 // 3. Then give each row of the matrix, one line at a time (each value must be an integer).
 // 4. After the program evalutes, you may repeat the steps as many times as you wish.
 //
-// Example
+// Example (1 position rotation)
 //
 // 1 2 3
 // 2 3 4
@@ -18,6 +18,18 @@
 // 2 1 2
 // 3 3 3
 // 4 5 4
+
+// Example (90-degree rotation)
+//
+// 1 2 3
+// 2 3 4
+// 3 4 5
+//
+// will output:
+//
+// 3 2 1
+// 4 3 2
+// 5 4 3
 
 var readline = require('readline');
 
